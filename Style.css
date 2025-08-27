@@ -1,7 +1,7 @@
 /* Creación de variables a  utilizar */
 :root {
-    --primary-color: #1d573e;
-    --secondary-color: #374432;
+    --primary-color: #a9db4e;
+    --secondary-color: #934a19;
     --text-color: #333333;;
     --background-color: #f4f4f4;
     --light-gray: #ecf0f1;
@@ -20,7 +20,7 @@ body {
 /*Sección para cambiar color de la barra de sección*/
 .header {
     background: var(--secondary-color);
-    color: rgb(148, 109, 109);
+    color: rgb(233, 85, 85);
     padding: 1rem 0;
     position: fixed;
     width: 100%;
@@ -126,15 +126,15 @@ body {
 .profile-photo {
     width: 250px;
     height: 250px;
-    border-radius: 90%;
+    border-radius: 10%;
     object-fit: cover;
-    border: 5px solid var(--primary-color);
+    border: 10px solid #550000;
     margin-bottom: 1rem;
 }
 
 /*Tamaños y color para el nombre*/
 .profile-name {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     margin: 0.5rem 0;
     color: var(--secondary-color);
 }
@@ -223,7 +223,7 @@ del area de Estudios realizados y experiencia laboral*/
 
 /*Sección para cambiar el color del botón de enviar mensaje y el color de la letra */
 .submit-button {
-    background-color: var(--primary-color);
+    background-color: rgb(220, 200, 150);
     color: white;
     border: none;
     padding: 1rem;
@@ -235,7 +235,7 @@ del area de Estudios realizados y experiencia laboral*/
 
 /*Para cambiar el efecto de color al pasar el mouse por el boton de "Enviar Mensaje"*/
 .submit-button:hover {
-    background-color: #576066;
+    background-color: #fafa6d;
 }
 
 /* Footer */
@@ -243,11 +243,11 @@ del area de Estudios realizados y experiencia laboral*/
     text-align: center;
     padding: 1rem;
     background-color: var(--secondary-color);
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 /* Media Queries para responsividad  ¡¡¡No tocar, nos da diseño responsive!!! */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .header {
         text-align: center;
     }
