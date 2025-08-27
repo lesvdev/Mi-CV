@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Fútbol</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: green;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #222;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    section {
+      padding: 20px;
+    }
+    .galeria img {
+      width: 200px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    table, th, td {
+      border: 1px solid #555;
+    }
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>⚽ Bienvenido a mi página de Fútbol ⚽</h1>
+  </header>
+
+  <nav>
+    <a href="#historia">Historia</a>
+    <a href="#equipos">Equipos</a>
+    <a href="#galeria">Galería</a>
+  </nav>
+
+  <section id="historia">
+    <h2>Historia del Fútbol</h2>
+    <p>El fútbol es el deporte más popular del mundo. Nació en Inglaterra en el siglo XIX y hoy en día millones de personas lo practican y lo siguen con pasión.</p>
+  </section>
+
+  <section id="equipos">
+    <h2>Equipos Famosos</h2>
+    <table>
+      <tr>
+        <th>Equipo</th>
+        <th>País</th>
+        <th>Títulos</th>
+      </tr>
+      <tr>
+        <td>Real Madrid</td>
+        <td>España</td>
+        <td>14 Champions League</td>
+      </tr>
+      <tr>
+        <td>FC Barcelona</td>
+        <td>España</td>
+        <td>5 Champions League</td>
+      </tr>
+      <tr>
+        <td>Manchester United</td>
+        <td>Inglaterra</td>
+        <td>3 Champions League</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="galeria" class="galeria">
+    <h2>Galería de Imágenes</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Football_in_Brazil.jpg" alt="Fútbol en Brasil">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Soccer_ball.svg" alt="Balón de fútbol">
+  </section>
+
+  <footer>
+    <p>Creado con ❤️ por un aficionado al fútbol</p>
+  </footer>
+
+</body>
+</html>
